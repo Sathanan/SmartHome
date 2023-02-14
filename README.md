@@ -113,3 +113,30 @@
  
  <br>
 
+## Unit Test
+
+---
+Da ich leider nicht mein git auf Visual Studio clonen konnte hier unten noch mein Unit Test code vorhanden.
+---
+
+
+            using NUnit.Framework;
+
+            [TestFixture]
+            public class ExampleTest
+            {
+                [Test]
+                public void TestAddition()
+                {
+                    // Arrange
+                    int a = 3;
+                    int b = 4;
+
+                    // Act
+                    int result = a + b;
+
+                    // Assert
+                    Assert.AreEqual(7, result);
+                }
+            }
+
